@@ -1,39 +1,34 @@
 # LevelSuperMind Appium Assignment
 
-# Objective
+## Objective
 
 The purpose of this project is to automate the login functionality of the LevelSuperMind application using Appium. The test cases cover login scenarios with both email and phone number authentication.
 
 ## Directory Structure
 
-luhder-levelsupermind_appium_assignment/
-├── README.md
-└── LevelSuperMind/
-    ├── pom.xml
-    ├── src/
-    │   └── test/
-    │       └── java/
-    │           ├── loginEmail/
-    │           │   └── ValidLogin.java
-    │           └── loginPhone/
-    │               ├── InvalidLogin.java
-    │               └── ValidLogin.java
-    └── target/
-        ├── classes/
-        │   └── META-INF/
-        │       ├── MANIFEST.MF
-        │       └── maven/
-        │           └── LevelSuperMind/
-        │               └── LevelSuperMind/
-        │                   ├── pom.properties
-        │                   └── pom.xml
-        └── test-classes/
-            ├── loginEmail/
-            └── loginPhone/
+| Directory/File                          |
+|-----------------------------------------|
+| `luhder-levelsupermind_appium_assignment/` |
+| ├── `README.md`                         |
+| └── `LevelSuperMind/`                   |
+|     ├── `pom.xml`                       |
+|     ├── `src/test/java/loginEmail/`     |
+|     │   └── `ValidLogin.java`           |
+|     ├── `src/test/java/loginPhone/`     |
+|     │   ├── `InvalidLogin.java`         |
+|     │   └── `ValidLogin.java`           |
+|     └── `target/`                       |
+|         ├── `classes/META-INF/`         |
+|         │   ├── `MANIFEST.MF`           |
+|         │   └── `maven/`                |
+|         └── `test-classes/`             |
+|             ├── `loginEmail/`           |
+|             └── `loginPhone/`           |
 
-Preconditions
 
-Before running the tests, ensure the following prerequisites are met:
+## Preconditions
+
+**Before running the tests, ensure the following prerequisites are met:**
 
 Java Development Kit (JDK) 8 or later - Install and configure the Java environment.
 
@@ -51,7 +46,7 @@ Device Settings - Enable Developer Mode and USB Debugging on the test device.
 
 Required Dependencies - Install required dependencies using Maven.
 
-Setup Instructions
+## Setup Instructions**
 
 1. Clone the Repository
 
@@ -88,7 +83,7 @@ To execute the test cases, run:
 
 mvn test
 
-Test Cases
+**Test Cases**
 
 Login with Email
 
@@ -100,6 +95,7 @@ Valid Login (ValidLogin.java): Verify login with a valid phone number and OTP.
 
 Invalid Login (InvalidLogin.java): Verify login fails with an invalid phone number.
 
-Reports
+**App Link**
+-	Android app link - https://play.google.com/store/search?q=level%20supermind&c=apps
+-	iOS app link - https://apps.apple.com/in/app/level-meditation-sleep-yoga/id1623828602
 
-Test execution results will be stored in the target/surefire-reports directory.
