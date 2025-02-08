@@ -95,6 +95,17 @@ Valid Login (ValidLogin.java): Verify login with a valid phone number and OTP.
 
 Invalid Login (InvalidLogin.java): Verify login fails with an invalid phone number.
 
+
+**Challenges faced during Test**
+
+- Dynamic Locators: Managed dynamically changing locators using XPath strategies and waits.
+
+- Device Compatibility: Addressed inconsistencies between emulator and real device behavior.
+
+- OTP Automation: Automated OTP retrieval from the notification bar using Android's ADB capabilities.
+
+- Appium Server Issues: Resolved intermittent connection issues by restarting the server and ensuring proper ADB setup..
+
 **App Link**
 -	Android app link - https://play.google.com/store/search?q=level%20supermind&c=apps
 -	iOS app link - https://apps.apple.com/in/app/level-meditation-sleep-yoga/id1623828602
